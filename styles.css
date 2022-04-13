@@ -1,0 +1,46 @@
+body{
+    background-color: crimson;
+    color: white;
+    font-family: sans-serif;
+    margin:0px;
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border: 1px solid #3434345b;
+}
+li a:hover{
+    background-color: darkgrey;
+}
+li a:visited{
+    color: white;
+}
+p{
+    padding-left: 5px;
+    padding-right: 50%;
+    font-family: sans-serif;
+}
+h1{
+    padding-left: 5px;
+}
